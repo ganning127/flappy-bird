@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-#https://www.youtube.com/watch?v=UZg49z76cLw&t=822s 
 import pygame, sys, random
 
 from pygame.locals import *
