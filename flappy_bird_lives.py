@@ -91,10 +91,6 @@ floor_surface = pygame.image.load('assets/base.png')
 floor_surface = pygame.transform.scale2x(floor_surface)
 floor_x_pos = 0
 
-#bird_surface = pygame.image.load('assets/bluebird-midflap.png').convert_alpha()
-#bird_surface = pygame.transform.scale2x(bird_surface)
-#bird_rect = bird_surface.get_rect(center=(100,512))
-
 #animating bird
 bird_downflap = pygame.transform.scale2x(pygame.image.load('assets/bluebird-downflap.png').convert_alpha())
 bird_midflap = pygame.transform.scale2x(pygame.image.load('assets/bluebird-midflap.png').convert_alpha())
